@@ -348,7 +348,7 @@ nav ul li a {
         top: 0;
         left: 0;
         z-index: 2;
-        background-color: rgb(12, 12, 12);
+        background-color: rgb(2, 6, 23);
     }
     .menu-card {
         width: 75%;
@@ -365,7 +365,7 @@ nav ul li a {
     }
 
     .menu-card .separator {
-        border-top: 1.5px solid #42434a;
+        border-top: 1.5px solid rgb(3, 11, 42);
     }
 
     .menu-card .list {
