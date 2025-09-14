@@ -36,7 +36,7 @@ const Policy = () => {
               Contact Information
               </h3>
               <p>
-              copixlab is glad to receive your comments concerning this "Privacy Policy". In case you think that copixlab does not follow the rules and violate this Statement, contact us at copixlab@gmail.com We guarantee that we will take commercially reasonable efforts to discover and solve the problem.
+              Mirrorstat is glad to receive your comments concerning this "Privacy Policy". In case you think that Mirrorstat does not follow the rules and violate this Statement, contact us at support@mirrorstat.com We guarantee that we will take commercially reasonable efforts to discover and solve the problem.
               </p>
             </div>
       </div>

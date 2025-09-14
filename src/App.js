@@ -56,7 +56,7 @@ function App() {
     }, [])
 
   
-    const route = 'https://copixlab-backend.vercel.app'
+    const route = 'https://mirrorstat-backend.vercel.app'
     // const route = 'http://localhost:5000'
   
   return (

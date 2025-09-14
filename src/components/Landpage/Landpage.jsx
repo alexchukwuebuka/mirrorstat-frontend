@@ -26,7 +26,7 @@ const Landpage = () => {
                     animate={{y:0, opacity:1}}
                     transition={{duration:0.65,delay:0.4}}
                 >
-                    Trust us to navigate the complexities of the investment market, while you sit back and watch your wealth flourish. It's time to unlock your financial potential and embark on a prosperous journey with us.
+                   Entrust us to expertly navigate the intricacies of the investment landscape, while you enjoy the growth of your capital. This is the time to unlock your financial capacity and commence a successful journey with our guidance.
                   </motion.p>
                 <motion.button className="launch-btn cssbuttons-io"initial={{y:45, opacity:0}}
                     animate={{y:0, opacity:1}}
