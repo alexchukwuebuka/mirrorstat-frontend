@@ -79,24 +79,24 @@ const Deposit = ({amount,active,close,route}) => {
             })
             
             const data = {
-           service_id: 'service_aa7neyl',
-            template_id: 'template_brx0r3f',
-            user_id: '_wYCr4-w43qFmNw9O',
+           service_id: 'service_v81s9q6',
+            template_id: 'template_kat7an6',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `copixlab@gmail.com`,
+                'reply_to': `support@mirrorstat.com`,
                 'subject':`${res.subject}`
             }
             };
             const adminData = {
-            service_id: 'service_aa7neyl',
-            template_id: 'template_brx0r3f',
-            user_id: '_wYCr4-w43qFmNw9O',
+            service_id: 'service_v81s9q6',
+            template_id: 'template_kat7an6',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
                 'name': `Bro`,
-                'email': `copixlab@gmail.com`,
+                'email': `support@mirrorstat.com`,
                 'message': `${res.adminMessage}`,
                 'reply_to': `${res.email}`,
                 'subject':`${res.adminSubject}`

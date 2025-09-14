@@ -130,9 +130,9 @@ useEffect(() => {
     localStorage.setItem('token', result.token);
 
      const userData = {
-            service_id: 'service_aa7neyl',
-            template_id: 'template_05vxmxu',
-            user_id: '_wYCr4-w43qFmNw9O',
+            service_id: 'service_v81s9q6',
+            template_id: 'template_15pp3ni',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
               'name': `${result.name}`,
               'email': `${result.email}`,
@@ -141,14 +141,14 @@ useEffect(() => {
           };
 
           const adminData = {
-            service_id: 'service_aa7neyl',
-            template_id: 'template_brx0r3f',
-            user_id: '_wYCr4-w43qFmNw9O',
+            service_id: 'service_v81s9q6',
+            template_id: 'template_kat7an6',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
                 'name': `Bro`,
-                'email': `copixlab@gmail.com`,
+                'email': `support@mirrorstat.com`,
                 'message': `${result.message}`,
-                'reply_to': `copixlab@gmail.com`,
+                'reply_to': `support@mirrorstat.com`,
                 'subject':`${result.adminSubject}`
             }
         };
@@ -175,14 +175,14 @@ useEffect(() => {
           }
           else {
             const referringUserData = {
-            service_id: 'service_aa7neyl',
-            template_id: 'template_brx0r3f',
-            user_id: '_wYCr4-w43qFmNw9O',
+            service_id: 'service_v81s9q6',
+            template_id: 'template_kat7an6',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
                 'name': `${result.referringUserName}`,
                 'email': `${result.referringUserEmail}`,
                 'message': `${result.referringUserMessage}`,
-                'reply_to': `copixlab@gmail.com`,
+                'reply_to': `support@mirrorstat.com`,
                 'subject':`${result.subject}`
             }
             };

@@ -96,14 +96,14 @@ const Admindashboard = ({ route }) => {
             title: `Acoount credited with  $${res.funded} USD`
         })
         const data = {
-            service_id: 'service_aa7neyl',
-            template_id: 'template_brx0r3f',
-            user_id: '_wYCr4-w43qFmNw9O',
+            service_id: 'service_v81s9q6',
+            template_id: 'template_kat7an6',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
                 'name': `${res.name}`,
                 'email': `${res.email}`,
                 'message': `${res.message}`,
-                'reply_to': `copixlab@gmail.com`,
+                'reply_to': `support@mirrorstat.com`,
                 'subject':`${res.subject}`
             }
           };
@@ -119,14 +119,14 @@ const Admindashboard = ({ route }) => {
       }
       else {
         const uplineData = {
-            service_id: 'service_aa7neyl',
-            template_id: 'template_brx0r3f',
-            user_id: '_wYCr4-w43qFmNw9O',
+            service_id: 'service_v81s9q6',
+            template_id: 'template_kat7an6',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
                 'name': `${res.uplineName}`,
                 'email': `${res.uplineEmail}`,
                 'message': `${res.uplineMessage}`,
-                'reply_to': `copixlab@gmail.com`,
+                'reply_to': `support@mirrorstat.com`,
                 'subject':`${res.uplineSubject}`
             }
         };
@@ -232,14 +232,14 @@ const Admindashboard = ({ route }) => {
 
     if (awaitedData.amount !== undefined) {
        const data = {
-            service_id: 'service_aa7neyl',
-            template_id: 'template_brx0r3f',
-            user_id: '_wYCr4-w43qFmNw9O',
+            service_id: 'service_v81s9q6',
+            template_id: 'template_kat7an6',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
                 'name': `${name}`,
                 'email': `${activeEmail}`,
                 'message': `Congratulations! your withdrawal $${awaitedData.amount} has been approved. confirm withdrawal of $${awaitedData.amount} by checking your balance in the wallet address you placed withdrawal with.`,
-                'reply_to': `copixlab@gmail.com`,
+                'reply_to': `support@mirrorstat.com`,
                 'subject':`successful withdrawal`
             }
       };
