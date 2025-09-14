@@ -34,7 +34,7 @@ const Userdashboardfundaccount = ({route}) => {
     },
     {
       id:2,
-      min:1000,
+      min:1,
       max:1000,
       image:'/etherium.png',
       method:'ETH',
@@ -42,32 +42,32 @@ const Userdashboardfundaccount = ({route}) => {
     },
     {
       id:3,
-      min:1000,
-      max:1000,
+      min:1,
+      max:1,
       image:'/trc.jpg',
       method:'USDT (TRC 20 tron) ',
       wallet:'TKYSH6vrdhrxJEh1DF5YWoRfk5m3UtbYZ4'
     },
     {
       id:4,
-      min:1000,
+      min:1,
       max:1000,
       image:'/solana.png',
       method:'Solana (SOL) ',
       wallet:'6ToY2pwMAGETYQ7X7JqpxCR7GMp62FFmGYj7vF4Rs2CH'
     },
     {
-      id:3,
-      min:1000,
+      id:5,
+      min:1,
       max:1000,
       image:'/erc.jpg',
       method:'USDT (ERC 20) ',
       wallet:'0x9fc6aa8e4A31a736b4723D1506543FFD571489f6'
     },
     {
-      id:3,
-      min:1000,
-      max:1000,
+      id:6,
+      min:1,
+      max:1,
       image:'/bep.png',
       method:'USDT (BEP 20 solana) ',
       wallet:'6ToY2pwMAGETYQ7X7JqpxCR7GMp62FFmGYj7vF4Rs2CH'
