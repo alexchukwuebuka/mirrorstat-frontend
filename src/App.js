@@ -101,7 +101,6 @@ function App() {
             <Route path='/about' element={<Aboutpage />}/>
             <Route path='/faq' element={<Faq />}/>
             <Route path='/privacy-policy' element={<Policy />}/>
-            {/* <Route path='/buy-crypto' element={<Buybitcoin />}/> */}
             <Route path='/forex' element={<Forex />}/>
             <Route path='/futures' element={<Futures />}/>
             <Route path='/indices' element={<Indices />}/>
@@ -110,7 +109,6 @@ function App() {
             <Route path='/technical-analysis' element={<TechnicalAnalysisPage />}/>
             <Route path='/heatmaps' element={<Heatmaps />}/>
             <Route path='/watchlists' element={<Watchlist />}/>
-            {/* <Route path='/copytrade' element={<CopytradePage />}/> */}
             <Route path='/team' element={<Team />}/>
             <Route path='/usercopytrade' element={<UserdashboardCopytrade route={route} />}/>
             <Route path='/traders' element={<UserdashboardTraders route={route} />}/>
@@ -118,8 +116,8 @@ function App() {
             <Route path='/ranking' element={<UserdashboardRanking route={route}/>}/>
             <Route path='/kyc' element={<UserdashboardKyc route={route} />}/>
             <Route path='/verify' element={<Verify />}/>
-              <Route path=':id/verify/:token' element={<VerifyEmail route={route} />} />
-              <Route path='/passwordreset' element={<ForgotPassword route={route}/>}/>
+            <Route path=':id/verify/:token' element={<VerifyEmail route={route} />} />
+            <Route path='/passwordreset' element={<ForgotPassword route={route}/>}/>
             <Route path='/resetpassword/:email' element={<PasswordReset route={route}/>}/>
           </Routes>
         </motion.div>
