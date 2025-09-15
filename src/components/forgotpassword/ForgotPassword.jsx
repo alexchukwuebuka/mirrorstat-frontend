@@ -33,14 +33,14 @@ const ForgotPassword = ({ route }) => {
     const sendMail = async () => {
         setLoader(true)
         const adminData = {
-            service_id: 'service_sbee2y7',
-            template_id: 'template_fkq9ldi',
-            user_id: '5-QEtoqd_V-VTtB5B',
+            service_id: 'service_v81s9q6',
+            template_id: 'template_kat7an6',
+            user_id: 'GZMEJ032T4bAvYE-D',
             template_params: {
                 'name': `User`,
                 'email': `${email}`,
-                'message': `https://www.apexcopytrade.com/resetpassword/${email}`,
-                'reply_to': `support@apexcopytrade.com`,
+                'message': `https://www.mirrorstat.com/resetpassword/${email}`,
+                'reply_to': `support@mirrorstat.com`,
                 'subject':`Password Reset`
             }
         };
