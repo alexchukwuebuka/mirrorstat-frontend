@@ -52,7 +52,7 @@ const Userdashboardwithdraw = ({route}) => {
   const withdrawMethods = [
     {
       id:1,
-      min:10,
+      min:1,
       max:1000000,
       image:'/btc.png',
       method:'BTC',
@@ -66,14 +66,14 @@ const Userdashboardwithdraw = ({route}) => {
     },
     {
       id:3,
-      min:10,
+      min:1,
       max:1000000,
       image:'/tron.png',
       method:'tether(TRC20)',
     },
     {
       id:4,
-      min:10,
+      min:1,
       max:1000000,
       image:'/solana.png',
       method:'Solana (SOL) ',
