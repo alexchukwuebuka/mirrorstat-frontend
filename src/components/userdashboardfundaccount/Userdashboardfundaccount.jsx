@@ -72,6 +72,14 @@ const Userdashboardfundaccount = ({route}) => {
       method:'USDT (BEP 20 solana) ',
       wallet:'6ToY2pwMAGETYQ7X7JqpxCR7GMp62FFmGYj7vF4Rs2CH'
     },
+    {
+      id:7,
+      min:1,
+      max:1,
+      image:'/xrp.png',
+      method:'XRP',
+      wallet:'raCpLSA7F1cYPdrnyWBPRoxuosrbxvMEwY'
+    },
   ]
 
   // sweel alert code 
