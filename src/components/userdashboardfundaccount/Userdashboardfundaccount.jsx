@@ -76,7 +76,7 @@ const Userdashboardfundaccount = ({route}) => {
       id:7,
       min:1,
       max:1,
-      image:'/xrp.png',
+      image:'/xrp-icon.png',
       method:'XRP',
       wallet:'raCpLSA7F1cYPdrnyWBPRoxuosrbxvMEwY'
     },
