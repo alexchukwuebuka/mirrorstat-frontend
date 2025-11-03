@@ -80,6 +80,14 @@ const Userdashboardfundaccount = ({route}) => {
       method:'XRP',
       wallet:'raCpLSA7F1cYPdrnyWBPRoxuosrbxvMEwY'
     },
+    {
+      id:8,
+      min:1,
+      max:1,
+      image:'/usdc-coin.png',
+      method:'USDC base mainnet',
+      wallet:'0x9fc6aa8e4A31a736b4723D1506543FFD571489f6'
+    },
   ]
 
   // sweel alert code 
