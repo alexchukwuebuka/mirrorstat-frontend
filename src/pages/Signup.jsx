@@ -229,7 +229,7 @@ useEffect(() => {
     
     localStorage.removeItem('referedUser');
 
-    navigate('/verify');
+    navigate('/dashboard');
   } catch (error) {
     setLoader(false);
     console.error("Error during signup:", error);
